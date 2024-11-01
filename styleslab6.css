@@ -1,0 +1,150 @@
+.static-box{
+    position: static;
+}
+.relative-box{
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+.fixed-box{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.sticky-box{
+    top: 0px;
+}
+.background-image{
+    background-image: url("https://a.pinatafarm.com/312x296/ae7f8ccd22/sad-thumbs-up-cat.jpg");
+    background-size: cover;
+    width: 600px;
+    height: 600px;
+    border-style: dotted;
+}
+.background-image-repeat{
+    height: 1000px;
+    width: 1000px;
+    border: 3px;
+    border-style: dotted; 
+    background-image: url("https://a.pinatafarm.com/312x296/ae7f8ccd22/sad-thumbs-up-cat.jpg");
+    background-repeat: repeat;
+    background-size: 500px;
+}
+.box1{
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    border-style: dotted;
+    position: absolute;
+    z-index: 1;
+}
+.box2{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 3px;
+    border-style: dotted;
+    position: absolute;
+    z-index: 1;
+}
+.flex-container-row{
+    border: 3px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: row;
+    height: 100px
+}
+.flex-container-column{
+    border: 3px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: column;
+    height: 100px
+}
+.flex-justify{
+    border: 3px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100px
+}
+.flex-wrap{
+    border: 3px;
+    border-style: dotted;
+    display: flex;
+    flex-direction: wrap;
+    height: 100px
+}
+.dif-heights{
+    border: 3px;
+    border-style: dotted;
+    display: flex;
+   flex-direction: column;
+   height: 500px;
+   justify-content: space-around;
+   align-items: center;
+}
+.flex-item1{
+    background-color: khaki;
+    border: 2px;
+    border-style: dashed;
+    height: 100px;
+    width: 100px;
+}
+.flex-item2{
+    background-color: teal;
+    border: 2px;
+    border-style: dashed;
+    height: 200px;
+    width: 100px;
+}
+.flex-item3{
+    background-color: pink;
+    border: 2px;
+    border-style: dashed;
+    height: 50px;
+    width: 100px;
+}
+.align-items{
+    border: 3px;
+    border-style: dotted;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.flex-grow{
+    border: 3px;
+    border-style: dotted;
+    height: 200px;
+    display: flex;
+}
+.flex-item11{
+    background-color: lightcoral;
+    border: 2px;
+    border-style: dashed;
+    height: 100px;
+    width: 100px;
+}
+.flex-item21{
+    flex-grow: 2;
+    background-color: lightblue;
+    border:2px;
+    border-style: dashed;
+    height: 100px;
+    width: 100px;
+}
+.flex-item31{
+    background-color: aquamarine;
+    border: 2px;
+    border-style: dashed;
+    height: 100px;
+    width: 100px;
+}
+
